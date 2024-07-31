@@ -1,7 +1,7 @@
 body {
     font-style: Arial;
     background: black;
-    font-weight: 1500px;
+    font-weight: bolder;
 }
 
 .animation-box {
@@ -14,75 +14,75 @@ body {
 
 .first-text {
     font-size: 2.50rem;
-    color: white;
+    color: grey;
     position: absolute;
     left: 2.0rem;
     top: 3rem;
     opacity: 0;
     animation-name: emmanuel;
-    animation-duration: 5s;
+    animation-duration: 7s;
 
 }
 
 .second-text {
     font-size: 2.0rem;
-    color: white;
+    color: grey;
     position: absolute;
     top: 1rem;
     opacity: 0;
     animation-name: emmanuel2;
     animation-duration: 10s;
-    animation-delay: 4s;
+    animation-delay: 8s;
 }
 
 .third-text {
     font-size: 2.0rem;
-    color: white;
+    color: grey;
     position: absolute;
     left: 10%;
     top: 45%;
     opacity: 0;
     animation-name: emmanuel3;
-    animation-duration: 14s;
-    animation-delay: 12s;
+    animation-duration: 20s;
+    animation-delay: 20s;
 
 }
 
 .fourth-text {
     font-size: 2.0rem;
-    color: rgb(240, 68, 68);
+    color: grey;
     position: absolute;
     left: 2.0rem;
     top: 10rem;
     opacity: 0;
     animation-name: emmanuel4;
-    animation-duration: 14s;
-    animation-delay: 22s;
+    animation-duration: 18s;
+    animation-delay: 45s;
 
 }
 
 .fifth-text {
     font-size: 1.7rem;
-    color: rgb(229, 249, 99);
+    color: grey;
     position: absolute;
     left: 5%;
     bottom: 10rem;
     opacity: 0;
     animation-name: emmanuel5;
     animation-duration: 20s;
-    animation-delay: 33s;
+    animation-delay: 68s;
 }
 
 .sixth-text {
     font-size: 3.0rem;
-    color: white;
+    color: grey;
     position: absolute;
     left: 2.5rem;
     bottom: 25;
     opacity: 0;
     animation-name: emmanuel6;
     animation-duration: 6s;
-    animation-delay: 50s;
+    animation-delay: 90s;
 }
 
 @keyframes emmanuel {
@@ -91,7 +91,7 @@ body {
         opacity: 0;
     }
 
-    75% {
+    50% {
         top: 25%;
         opacity: 1;
     }
@@ -108,7 +108,7 @@ body {
         opacity: 0;
     }
 
-    75% {
+    50% {
         top: 10%;
         opacity: 1;
     }
@@ -125,7 +125,7 @@ body {
         opacity: 0;
     }
 
-    75% {
+    50% {
         top: 10%;
         opacity: 1;
     }
@@ -142,7 +142,7 @@ body {
         opacity: 0;
     }
 
-    75% {
+    50% {
         top: 10%;
         opacity: 1;
     }
@@ -159,7 +159,7 @@ body {
         opacity: 0;
     }
 
-    75% {
+    50% {
         top: 5%;
         opacity: 1;
     }
@@ -176,7 +176,7 @@ body {
         opacity: 0;
     }
 
-    75% {
+    50% {
         top: 30%;
         opacity: 1;
     }
